@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File ".\Match-SubnetSimple.ps1" -ClientCsvPath ".\clients.csv" -SubnetCsvPath ".\subnets.csv" -OutputPath ".\result.csv"

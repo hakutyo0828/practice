@@ -1,0 +1,14 @@
+ComputerName,IPAddress,OS,備考
+SRV-AP01,192.168.1.10,Windows Server 2019,本番APサーバ
+SRV-AP02,192.168.1.11,Windows Server 2019,本番APサーバ
+SRV-DB01,192.168.2.50,Windows Server 2022,本番DBサーバ
+SRV-DR01,10.20.1.10,Windows Server 2019,災対APサーバ
+SRV-DR02,10.20.1.11,Windows Server 2019,災対APサーバ
+SRV-DRDB01,10.20.2.50,Windows Server 2022,災対DBサーバ
+PC-USER01,172.16.10.5,Windows 11,営業部端末
+PC-USER02,172.16.10.20,Windows 11,営業部端末
+PC-USER03,172.16.20.8,Windows 10,開発部端末
+SRV-MGR01,10.99.5.100,Windows Server 2022,管理サーバ（未登録想定）
+PC-GUEST01,192.0.2.50,Windows 11,ゲスト端末（未登録想定）
+SRV-MON01,10.255.0.10,Windows Server 2019,監視サーバ（未登録想定）
+PC-BAD,abc.def.ghi,Windows 10,IP形式不正テスト
