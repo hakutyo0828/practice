@@ -1,0 +1,7 @@
+Subnet,SiteName,Description
+192.168.1.0/24,Tokyo-Main,本番APセグメント
+192.168.2.0/24,Tokyo-Main,本番DBセグメント
+10.20.1.0/24,Osaka-DR,災対APセグメント
+10.20.2.0/24,Osaka-DR,災対DBセグメント
+172.16.10.0/24,Tokyo-Main,営業部クライアントセグメント
+172.16.20.0/24,Tokyo-Main,開発部クライアントセグメント

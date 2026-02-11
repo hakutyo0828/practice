@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File ".\Check-SubnetBatch.ps1" -ClientCsvPath ".\new_clients.csv" -SubnetCsvPath ".\subnets.csv"
