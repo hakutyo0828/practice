@@ -1,0 +1,9 @@
+ComputerName,IPAddress,Note
+NEW-SRV01,192.168.1.50,should be OK
+NEW-SRV02,10.20.1.30,should be OK
+NEW-SRV03,10.99.5.200,should be NG
+NEW-PC01,172.16.10.88,should be OK
+NEW-PC02,192.0.2.100,should be NG
+NEW-PC03,10.255.0.55,should be NG
+NEW-PC04,172.16.20.3,should be OK
+NEW-BAD,not.an.ip.x,should be InvalidIP
